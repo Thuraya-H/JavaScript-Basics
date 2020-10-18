@@ -1,7 +1,7 @@
 /*CSS reset settings here*/
 *{
-    margin: 0px;
-    padding: 0px;
+    margin: 10px;
+    padding: 10px;
    }
    #wrapper{
     width: 950px;
@@ -11,19 +11,24 @@
    #header{
     min-height: 150px;
     background-color: green;
+    display: block;
    }
    #navigation{
     min-height: 300px;
     width: 200px;
     background-color: blue;
+    display: inline-block;
    }
    #main_content{
     min-height: 400px;
-    width: 700px;
+    width: 665px;
     background-color: red;
+    display: inline-block;
+    vertical-align: top;
    }
    #tail{
     min-height: 150px;
     background-color: purple;
+    display: block;
    }
    
