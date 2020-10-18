@@ -5,30 +5,34 @@
    }
    #wrapper{
     width: 950px;
-    background-color: silver;
+    background-color: #1c345e;
     margin: 0px auto;
    }
    #header{
     min-height: 150px;
-    background-color: green;
+    background-color: #cf3036;
     display: block;
+    color: #c3d7ec;
    }
    #navigation{
     min-height: 300px;
     width: 200px;
-    background-color: blue;
+    background-color: #297c8c;
     display: inline-block;
+    color: #6ce7ee;
    }
    #main_content{
     min-height: 400px;
     width: 665px;
-    background-color: red;
+    background-color: #0e1822;
     display: inline-block;
     vertical-align: top;
+    color: #c3d7ec;
    }
    #tail{
+       width: 900px;
     min-height: 150px;
-    background-color: purple;
-    display: block;
+    background-color: #5e6673;
+    color: #c3d7ec;
    }
    
