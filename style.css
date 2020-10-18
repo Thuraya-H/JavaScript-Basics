@@ -1,39 +1,47 @@
 /*CSS reset settings here*/
 *{
-    margin: 10px;
-    padding: 10px;
+    border: 10px dotted red;
    }
    #wrapper{
-    width: 950px;
+    width: 970px;
+    height: 575px;
+    margin: 0 auto;
     background-color: #1c345e;
-    margin: 0px auto;
    }
+   #wrapper div{
+       border-radius: 15px;
+    }
    #header{
-    min-height: 150px;
+    height: 60px;
     background-color: #cf3036;
-    display: block;
+    opacity: .5;
+    margin: 10px 10px 15px 10px;
     color: #c3d7ec;
    }
-#body{
-        display: inline-block;
-}
    #navigation{
-    min-height: 300px;
-    width: 200px;
+    height: 190px;
+    width: 170px;
+    margin-left: 10px;
     background-color: #297c8c;
+    opacity: .5;
+    display: inline-block;
     color: #6ce7ee;
    }
    #main_content{
-    min-height: 400px;
-    width: 665px;
+    height: 410px;
+    width: 757px;
+    margin-left: 15px;
     background-color: #0e1822;
+    opacity: .5;
+    display: inline-block;
     vertical-align: top;
     color: #c3d7ec;
    }
    #tail{
-       width: 900px;
-    min-height: 150px;
+    height: 45px;
+    margin: 15px 10px 10px 10px;
     background-color: #5e6673;
     color: #c3d7ec;
+    opacity: .5;
    }
    
